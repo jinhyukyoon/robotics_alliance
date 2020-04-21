@@ -4,6 +4,17 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans');
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 
+@media only screen and (max-width: 768px) {
+  #mainNav {
+    max-height: fit-content;
+  }
+ /* And we even need to overwrite the overflow property*/
+  .navbar-collapse.in {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+}
+
 p {
   font-size: 15px;
 }
