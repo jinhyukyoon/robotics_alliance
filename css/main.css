@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans');
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@font-face {
+  font-family: "San Francisco";
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
 
 @media only screen and (max-width: 768px) {
   #mainNav {
@@ -17,13 +21,22 @@
 
 p {
   font-size: 15px;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 500;
 }
 
 .container {
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'San Francisco', sans-serif;
 }
 
 .korean {
